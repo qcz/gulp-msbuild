@@ -1,6 +1,6 @@
 {
   "name": "gulp-msbuild",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "msbuild plugin for gulp. Inspired by grunt-msbuild.",
   "keywords": [
     "gulpplugin",
@@ -15,7 +15,8 @@
     },
     {
       "name": "Davyd McColl",
-      "url": "https://github.com/fluffynuts"
+      "url": "https://github.com/fluffynuts",
+      "email": "davydm@gmail.com"
     }
   ],
   "repository": "fluffynuts/gulp-msbuild",
