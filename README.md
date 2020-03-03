@@ -1,18 +1,5 @@
 # gulp-msbuild
-[![NPM](https://img.shields.io/npm/v/gulp-msbuild.svg?style=flat-square)](https://www.npmjs.com/package/gulp-msbuild)
-[![NPM downloads](https://img.shields.io/npm/dm/gulp-msbuild.svg?style=flat-square)](https://www.npmjs.com/package/gulp-msbuild)
-[![Travis](https://img.shields.io/travis/hoffi/gulp-msbuild/master.svg?style=flat-square)](https://travis-ci.org/hoffi/gulp-msbuild)
-[![Coveralls](https://img.shields.io/coveralls/hoffi/gulp-msbuild.svg?style=flat-square)](https://coveralls.io/github/hoffi/gulp-msbuild)
-[![David](https://img.shields.io/david/hoffi/gulp-msbuild.svg?style=flat-square)](https://david-dm.org/hoffi/gulp-msbuild)
-[![License](https://img.shields.io/npm/l/gulp-msbuild.svg?style=flat-square)](https://github.com/hoffi/gulp-msbuild/blob/master/LICENSE)
-
-# gulp-msbuild has moved
-
-This plugin was [blacklisted](https://github.com/hoffi/gulp-msbuild/issues/72#issuecomment-422089404) in the official gulp plugin directory, for apparently
-not following the [Gulp Guidelines](https://github.com/gulpjs/gulp/blob/v3.9.1/docs/writing-a-plugin/guidelines.md#guidelines). C'est la vie. Being able to `.src` some
-solutions and pipeline through an msbuild process seems like a good thing to me.
-
-Contributions welcome.
+This is a fork of `gulp-msbuild` from `fluffynuts/gulp-msbuild` with proper Visual Studio 2017 and Visual Studio 2019 support, including Build Tools versions. It can detect older versions in the MSBuild directory. It is not tested on older versions and on non-Windows systems.
 
 ## Usage
 
